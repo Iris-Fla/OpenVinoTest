@@ -1,7 +1,7 @@
 # OpenVinoTest✨
  OpenVinoの動作確認アプリケーションです！
 
-## 開発の仕方(memo)
+## 開発の仕方📗
 Venv環境を作成してから
 
 1. Venv環境に入る
@@ -10,3 +10,6 @@ Venv環境を作成してから
 `pip install -r requirements.txt`
 1. (Requirementsを作り直す)
 `pip freeze > requirements.txt`
+
+## Memo📘
+GPUで動くようにする場合はランタイムをインストール([リンク](https://github.com/intel/compute-runtime))
